@@ -1,4 +1,4 @@
-letters = ("I like reading books and magazines")
+letters = "I like reading books and magazines"
 count = 0
 count1 = 0
 for letter in letters:
