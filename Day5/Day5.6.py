@@ -2,17 +2,18 @@
 # any value should be entered from cmd
 # With loop add items from anystring to mybucketlist using function to add to list.
 
-def addtobucket(anylist, i):
+
+def add_to_bucket(your_list, i):
     i = i + " juice"
-    anylist.append(item)
+    your_list.append(i)
 
 
-mybucketlist = []
+my_bucket_list = []
 while True:
     item = input("Enter item:")
     if item != "quit":
-        addtobucket(mybucketlist, item)
+        add_to_bucket(my_bucket_list, item)
     else:
         break
 
-print(mybucketlist)
+print(my_bucket_list)

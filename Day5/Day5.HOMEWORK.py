@@ -6,3 +6,4 @@
 #.....
 #result
 #Here is output: {"Toyota":"corolla", "Chevy":"cruze"}
+# check Day5.6 to solve
