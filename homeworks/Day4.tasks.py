@@ -19,3 +19,15 @@ for i in range(1, 52):
         listB.append(i)
 print(listA)
 print(listB)
+
+##### Day4/Task3
+listA = []
+listB = []
+for i in range(1, 52):
+    if i % 2 == 0:
+        listA.append(i)
+    if i % 2 != 0:
+        listB.append(i)
+print(listA)
+print(listB)
+
