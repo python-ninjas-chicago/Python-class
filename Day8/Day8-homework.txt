@@ -1,0 +1,18 @@
+1)Create a Temprature class and two functions in class :
+Function 1 - takes celsius and convert to Fahrenheit.
+Function 2 - takes Fahrenheit and conver to Celsius.
+
+Use formula below to convert:
+celsius*9/5+32
+farenhiet-32*5/9
+
+2)Replace __HERE__ with proper code.
+
+import re
+funny_url = "https://play.google.com/store/apps/details?id=com.microsoft.teams&hl=en_US%fake https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US%hi https://play.google.com/store/apps/details?id=com.yelp.android&hl=en_US$shell"
+m = re.split("_HERE_", funny_url)
+m = re.search("_HERE_", m_HERE_)
+print(m._HERE_)
+
+Result should be as:
+OUTPUT: https://play.google.com/store/apps/details?id=com.microsoft.teams&hl=en_US
